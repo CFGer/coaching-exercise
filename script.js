@@ -1,6 +1,6 @@
-// Branch: main
-function greeting() {
-    console.log("Hello from the main branch!");
+// Branch: feature-update-greeting
+function greeting(name) {
+    console.log(`Hello, ${name}! Welcome to the feature branch.`);
 }
 
-greeting();
+greeting("Code Learner");
